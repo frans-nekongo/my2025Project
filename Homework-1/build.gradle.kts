@@ -17,6 +17,9 @@ plugins {
     id("io.gitlab.arturbosch.detekt") version "1.21.0"
 
     id("org.siouan.frontend-jdk11") version "6.0.0"
+
+    id("org.jetbrains.kotlin.plugin.serialization") version kotlinVersion apply false
+
 }
 
 val detektReportMerge by tasks.registering(io.gitlab.arturbosch.detekt.report.ReportMergeTask::class) {
