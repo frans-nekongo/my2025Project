@@ -1,0 +1,18 @@
+{
+    "gameHistory": [
+        [
+            {
+                "id": 1,
+                "points": 42
+            }
+        ]
+    ],
+    "teamsStorage": {
+        "1": {
+            "id": 1,
+            "points": 42
+        }
+    },
+    "teamIdCounter": 1,
+    "cardIdCounter": 75
+}
